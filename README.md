@@ -48,7 +48,7 @@ canvas-confetti
 
 Clone the repository:
 
-git clone https://github.com/MohammadFiroj786/CodeAlpha_AgeCalculator
+https://github.com/SurajTamang-22/codealpha_tasks
 
 
 Open the project folder.
@@ -59,10 +59,11 @@ Run index.html in any modern browser.
 
 👨‍💻 Author
 
-Intern: Mohammad Firoj
+Intern: Suraj Tamang
 
 Organization: CodeAlpha
 
 Task: Web Development – Task 1 (Age Calculator)
 
-Live Website: smart-age-calculator2025.netlify.app
+Live Website: SmartAgeCalculator-codealpha2025.great-site.net
+
