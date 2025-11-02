@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+<title>🎂 Smart Age Calculator | CodeAlpha</title>
+<meta name="description" content="Smart Age Calculator – Instantly calculate your age, upcoming birthday, life stats and more with a modern UI.">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <h1>
+    <i class="fa-solid fa-cake-candles"></i>
+    Smart Age Calculator
+  </h1>
+
+  <!-- INPUT -->
+  <label for="dob" style="font-size: 0.95rem; opacity: 0.9;">
+    Select your date of birth
+  </label>
+  <input type="date" id="dob"/>
+
+  <div id="error" class="error"></div>
+
+  <!-- BUTTONS -->
+  <div class="btn-group">
+    <button class="btn btn-primary" id="calcBtn">
+      <i class="fa-solid fa-calculator"></i>
+      Calculate
+    </button>
+
+    <button class="btn btn-danger" id="resetBtn">
+      <i class="fa-solid fa-rotate-right"></i>
+      Reset
+    </button>
+  </div>
+
+  <!-- RESULTS -->
+  <div class="result-box" id="resultBox">
+    <p id="mainResult"></p>
+    <p id="lifeStats"></p>
+    <p id="birthdayInfo"></p>
+    <p id="countdown"></p>
+
+    <!-- SHARE BLOCK -->
+    <div class="share-section">
+      <button id="downloadBtn" title="Download Result">
+        <i class="fa-solid fa-download"></i>
+      </button>
+      <button id="shareBtn" title="Share Result">
+        <i class="fa-solid fa-share-nodes"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      💡 <strong>Tip:</strong> Make sure your device date & time are correct for accurate results.<br>
+      👨‍💻 Built with ❤️ by <strong>CodeAlpha Intern Mohammad Firoj</strong>
+    </p>
+  </footer>
+
+</div>
+
+<!-- Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+<!-- Main JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
