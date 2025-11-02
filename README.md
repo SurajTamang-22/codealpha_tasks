@@ -65,5 +65,6 @@ Organization: CodeAlpha
 
 Task: Web Development – Task 1 (Age Calculator)
 
-Live Website: SmartAgeCalculator-codealpha2025.great-site.net
+Live Website: smartagecalculator-codealpha2025.great-site.net
+
 
